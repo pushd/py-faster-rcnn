@@ -69,6 +69,7 @@ if __name__ == '__main__':
         cfg_from_list(args.set_cfgs)
 
     cfg.GPU_ID = args.gpu_id
+    cfg.USE_GPU_NMS = False
 
     print('Using config:')
     pprint.pprint(cfg)
